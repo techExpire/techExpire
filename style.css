@@ -1,0 +1,40 @@
+.main coder::first-letter{
+    color: orange;
+}
+body{
+    background-color: antiquewhite;
+}
+
+.box{
+    background-color: antiquewhite;
+}
+.box-shodow{
+    transition: 0.5s;
+}
+.box-shodow:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.5s ;
+}
+.card-shadow{
+    transition: 0.5s;
+}
+.card-shadow:hover{
+    transform: scale(1.05);
+    transition: 0.5s ;
+}
+p{
+    text-align: justify;
+}
+.nav-link{
+    transition: all 0.5;
+    color: black;
+}
+.active{
+    color: orangered;
+}
+.nav-link:hover{
+    
+    background-color: orange;
+    border-radius: 5px;
+}
